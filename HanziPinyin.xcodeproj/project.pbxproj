@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8305745E2247A87B00558F12 /* CharacterToPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305745D2247A87B00558F12 /* CharacterToPinyin.swift */; };
 		D316702A1CC362440065A14D /* String+HanziPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31670291CC362440065A14D /* String+HanziPinyin.swift */; };
 		D316702C1CC394FD0065A14D /* PinyinOutputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316702B1CC394FD0065A14D /* PinyinOutputFormat.swift */; };
 		D31670311CC3B2BC0065A14D /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = D31670301CC3B2BC0065A14D /* unicode_to_hanyu_pinyin.txt */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8305745D2247A87B00558F12 /* CharacterToPinyin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterToPinyin.swift; sourceTree = "<group>"; };
 		D31670291CC362440065A14D /* String+HanziPinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HanziPinyin.swift"; sourceTree = "<group>"; };
 		D316702B1CC394FD0065A14D /* PinyinOutputFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinOutputFormat.swift; sourceTree = "<group>"; };
 		D31670301CC3B2BC0065A14D /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D395A1301CC245C500B76FB7 /* HanziPinyin.swift */,
 				D3B1E9871CC5232F00836FEF /* PinyinFormatter.swift */,
 				D31670321CC3CD760065A14D /* HanziPinyinResource.swift */,
+				8305745D2247A87B00558F12 /* CharacterToPinyin.swift */,
 			);
 			path = HanziPinyin;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D316702A1CC362440065A14D /* String+HanziPinyin.swift in Sources */,
+				8305745E2247A87B00558F12 /* CharacterToPinyin.swift in Sources */,
 				D31670331CC3CD760065A14D /* HanziPinyinResource.swift in Sources */,
 				D3B1E9881CC5232F00836FEF /* PinyinFormatter.swift in Sources */,
 				D395A1311CC245C500B76FB7 /* HanziPinyin.swift in Sources */,
